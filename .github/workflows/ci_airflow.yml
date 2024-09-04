@@ -10,6 +10,8 @@ jobs:
     env:
       CONTEXT: .
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: 🎉 Update staging
         uses: appleboy/ssh-action@master
         with:
