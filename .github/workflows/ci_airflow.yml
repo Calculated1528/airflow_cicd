@@ -6,7 +6,7 @@ on:
 jobs:
   build-dev:
     name: 🏗 Update staging from server
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       CONTEXT: .
     steps:
